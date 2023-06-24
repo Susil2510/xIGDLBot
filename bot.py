@@ -19,8 +19,8 @@ import pathlib
 bot_token = os.environ.get("BOT_TOKEN", "")
 bot = Bot(token=bot_token)
 
-help_keyboard = [[InlineKeyboardButton("Updates Channel", url="https://t.me/MBNUpdates"),
-                  InlineKeyboardButton("Support Chat", url="https://t.me/MBNChat")]]
+help_keyboard = [[InlineKeyboardButton("Updates Channel", url="https://t.me/RSK_update"),
+                  InlineKeyboardButton("Support Chat", url="https://t.me/RSK_MOVIEz")]]
 help_reply_markup = InlineKeyboardMarkup(help_keyboard)
 
 
